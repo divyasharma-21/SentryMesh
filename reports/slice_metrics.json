@@ -1,0 +1,44 @@
+{
+  "channel_slice": {
+    "call": {
+      "accuracy": 1.0,
+      "samples": 19
+    },
+    "sms": {
+      "accuracy": 1.0,
+      "samples": 29
+    },
+    "qr": {
+      "accuracy": 1.0,
+      "samples": 3
+    },
+    "email": {
+      "accuracy": 1.0,
+      "samples": 2
+    },
+    "whatsapp": {
+      "accuracy": 1.0,
+      "samples": 4
+    }
+  },
+  "language_slice": {
+    "hi-en": {
+      "accuracy": 1.0,
+      "samples": 22
+    },
+    "en": {
+      "accuracy": 1.0,
+      "samples": 27
+    },
+    "kn-en": {
+      "accuracy": 1.0,
+      "samples": 8
+    }
+  },
+  "source_slice": {
+    "synthetic_reviewed": {
+      "accuracy": 1.0,
+      "samples": 57
+    }
+  }
+}

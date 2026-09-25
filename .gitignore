@@ -1,0 +1,68 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter & IPython
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# Sensitive data, raw corpora & PII-risk datasets
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/sentrymesh_*.csv
+data/processed/*
+!data/processed/.gitkeep
+data/samples/*
+!data/samples/.gitkeep
+data/user_reports/*
+
+# Model checkpoints & heavy weights (>50MB)
+models/*
+!models/.gitkeep
+!models/label_mapping.json
+!models/tactic_mapping.json
+*.bin
+*.pt
+*.safetensors
+*.joblib
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node.js dependencies
+node_modules/

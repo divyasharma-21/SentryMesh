@@ -1,0 +1,50 @@
+{
+  "remote_access_scam": {
+    "remote_access_scam": 9,
+    "UPI_QR_scam": 0,
+    "authority_impersonation_scam": 0,
+    "fake_payment_scam": 0,
+    "legitimate": 0,
+    "payment_or_credential_scam": 0
+  },
+  "legitimate": {
+    "legitimate": 23,
+    "UPI_QR_scam": 0,
+    "authority_impersonation_scam": 0,
+    "fake_payment_scam": 0,
+    "payment_or_credential_scam": 0,
+    "remote_access_scam": 0
+  },
+  "UPI_QR_scam": {
+    "UPI_QR_scam": 6,
+    "authority_impersonation_scam": 0,
+    "fake_payment_scam": 0,
+    "legitimate": 0,
+    "payment_or_credential_scam": 0,
+    "remote_access_scam": 0
+  },
+  "authority_impersonation_scam": {
+    "authority_impersonation_scam": 8,
+    "UPI_QR_scam": 0,
+    "fake_payment_scam": 0,
+    "legitimate": 0,
+    "payment_or_credential_scam": 0,
+    "remote_access_scam": 0
+  },
+  "fake_payment_scam": {
+    "fake_payment_scam": 6,
+    "UPI_QR_scam": 0,
+    "authority_impersonation_scam": 0,
+    "legitimate": 0,
+    "payment_or_credential_scam": 0,
+    "remote_access_scam": 0
+  },
+  "payment_or_credential_scam": {
+    "payment_or_credential_scam": 5,
+    "UPI_QR_scam": 0,
+    "authority_impersonation_scam": 0,
+    "fake_payment_scam": 0,
+    "legitimate": 0,
+    "remote_access_scam": 0
+  }
+}

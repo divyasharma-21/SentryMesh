@@ -1,0 +1,26 @@
+{
+  "label_to_id": {
+    "UPI_QR_scam": 0,
+    "authority_impersonation_scam": 1,
+    "fake_payment_scam": 2,
+    "legitimate": 3,
+    "payment_or_credential_scam": 4,
+    "remote_access_scam": 5
+  },
+  "id_to_label": {
+    "0": "UPI_QR_scam",
+    "1": "authority_impersonation_scam",
+    "2": "fake_payment_scam",
+    "3": "legitimate",
+    "4": "payment_or_credential_scam",
+    "5": "remote_access_scam"
+  },
+  "classes": [
+    "UPI_QR_scam",
+    "authority_impersonation_scam",
+    "fake_payment_scam",
+    "legitimate",
+    "payment_or_credential_scam",
+    "remote_access_scam"
+  ]
+}

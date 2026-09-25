@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #070B14;
+    color: #F1F5F9;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom cyber glow and translucent card styles */
+.glass-panel {
+  background: rgba(13, 21, 39, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(30, 47, 82, 0.7);
+}
+
+.glass-panel-elevated {
+  background: rgba(19, 31, 56, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(45, 68, 114, 0.8);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.25);
+}
+
+.glow-risk-high {
+  box-shadow: 0 0 30px -5px rgba(239, 68, 68, 0.35);
+}
+
+.glow-risk-suspicious {
+  box-shadow: 0 0 30px -5px rgba(245, 158, 11, 0.35);
+}
+
+.glow-risk-uncertain {
+  box-shadow: 0 0 30px -5px rgba(139, 92, 246, 0.35);
+}
+
+.glow-risk-low {
+  box-shadow: 0 0 30px -5px rgba(16, 185, 129, 0.3);
+}
